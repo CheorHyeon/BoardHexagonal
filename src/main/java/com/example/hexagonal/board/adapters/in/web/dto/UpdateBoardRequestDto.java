@@ -1,4 +1,4 @@
-package com.example.board.dto;
+package com.example.hexagonal.board.adapters.in.web.dto;
 
 import io.swagger.v3.oas.annotations.media.Schema;
 

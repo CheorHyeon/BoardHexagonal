@@ -1,6 +1,6 @@
-package com.example.board.dto;
+package com.example.layeredarchitecture.board.dto;
 
-import com.example.board.entity.Board;
+import com.example.layeredarchitecture.board.entity.Board;
 
 import io.swagger.v3.oas.annotations.media.Schema;
 import lombok.Builder;
