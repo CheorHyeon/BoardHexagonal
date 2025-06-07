@@ -18,11 +18,13 @@ import com.example.board.service.BoardService;
 
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.media.Schema;
+import io.swagger.v3.oas.annotations.tags.Tag;
 import lombok.RequiredArgsConstructor;
 
 @RestController
 @RequestMapping("/api/boards")
 @RequiredArgsConstructor
+@Tag(name = "BoardController", description = "레이어드 아키텍처 게시판 컨트롤러")
 public class BoardController {
 
 	private final BoardService boardService;
