@@ -1,4 +1,4 @@
-package com.example.board.service;
+package com.example.layeredarchitecture.board.service;
 
 import java.util.List;
 
@@ -6,12 +6,12 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.util.StringUtils;
 
-import com.example.board.dto.AllBoardResponse;
-import com.example.board.dto.BoardCreateRequestDto;
-import com.example.board.dto.BoardDetail;
-import com.example.board.dto.UpdateBoardRequestDto;
-import com.example.board.entity.Board;
-import com.example.board.repository.BoardRepository;
+import com.example.layeredarchitecture.board.dto.AllBoardResponse;
+import com.example.layeredarchitecture.board.dto.BoardCreateRequestDto;
+import com.example.layeredarchitecture.board.dto.BoardDetail;
+import com.example.layeredarchitecture.board.dto.UpdateBoardRequestDto;
+import com.example.layeredarchitecture.board.entity.Board;
+import com.example.layeredarchitecture.board.repository.BoardRepository;
 
 import lombok.RequiredArgsConstructor;
 

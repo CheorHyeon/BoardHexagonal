@@ -1,4 +1,4 @@
-package com.example.board.dto;
+package com.example.layeredarchitecture.board.dto;
 
 import java.util.List;
 

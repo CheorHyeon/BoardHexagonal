@@ -1,4 +1,4 @@
-package com.example.board.controller;
+package com.example.layeredarchitecture.board.controller;
 
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.DeleteMapping;
@@ -10,11 +10,11 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.example.board.dto.AllBoardResponse;
-import com.example.board.dto.BoardCreateRequestDto;
-import com.example.board.dto.BoardDetail;
-import com.example.board.dto.UpdateBoardRequestDto;
-import com.example.board.service.BoardService;
+import com.example.layeredarchitecture.board.dto.AllBoardResponse;
+import com.example.layeredarchitecture.board.dto.BoardCreateRequestDto;
+import com.example.layeredarchitecture.board.dto.BoardDetail;
+import com.example.layeredarchitecture.board.dto.UpdateBoardRequestDto;
+import com.example.layeredarchitecture.board.service.BoardService;
 
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.media.Schema;

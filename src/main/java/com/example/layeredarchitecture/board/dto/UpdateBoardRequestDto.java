@@ -1,4 +1,4 @@
-package com.example.board.dto;
+package com.example.layeredarchitecture.board.dto;
 
 import io.swagger.v3.oas.annotations.media.Schema;
 

@@ -1,6 +1,6 @@
-package com.example.board.entity;
+package com.example.layeredarchitecture.board.entity;
 
-import com.example.board.dto.BoardCreateRequestDto;
+import com.example.layeredarchitecture.board.dto.BoardCreateRequestDto;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
